@@ -1,0 +1,19 @@
+{
+  "name": "marvelous-react-saga",
+  "version": "1.0.0",
+  "description": "A funny way to learn React / Redux and Sagas",
+  "main": "index.js",
+  "repository": "git@github.com:simplybusiness/marvel-react-redux-saga.git",
+  "author": "Panagiotis Tsavdaris <panagiotis.tsavdaris@simplybusiness.co.uk>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["ui", "api"],
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:api": "yarn --cwd ./api start",
+    "start:ui": "yarn --cwd ./ui start"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

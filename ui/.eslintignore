@@ -1,0 +1,6 @@
+# Node deps are only ignored at the root by default.
+# We need to also ignore them in our package dirs as well.
+**/node_modules/*
+
+# Ignore any output dirs
+**/dist/*
