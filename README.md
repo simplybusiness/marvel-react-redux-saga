@@ -34,4 +34,4 @@ The rest is up to you!
 4. Instead of passing the `onClick` as a prop, when you click on a hero it will need to dispatch an action to your store, which then update the `selectedHero` property with the selected hero's data. And you'll use this property to update your component's state accordingly.
 5. Up until now the hero list is being imported from local environment. At this step you'll need to use `redux-thunk` to load your heroes list from your server (endpoint for this is: `http://localhost:3000/heroes`) to your store.
 6. Once you've acoomplished that with `redux-thunk` you can go on and try the exact same thing but using the `redux-saga` middleware.
-7. Feel free to play with any variations you want. To infinite and beyond!
+7. Feel free to play with any variations you want. To infinity and beyond!
